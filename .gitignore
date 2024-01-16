@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+*.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model artifacts and data files
+*.h5
+*.pkl
+*.npy
+*.npz
+*.csv
+
+# Logs
+*.log
+
+# Ignore data directory if you store large datasets
+data/
+
+# Ignore model outputs
+models/
+
+# Ignore environment configuration files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
