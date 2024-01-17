@@ -1,7 +1,0 @@
-torch
-requests
-pillow
-diffusers
-gradio
-numpy
-tqdm

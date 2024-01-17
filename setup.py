@@ -1,44 +1,27 @@
-# need to change 
+from setuptools import setup, find_packages
 
-# import platform
-# import sys
-# from pathlib import Path
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
 
-# import pkg_resources
-# from setuptools import find_packages, setup
-
-
-# def read_version(fname="version.py"):
-#     exec(compile(open(fname, encoding="utf-8").read(), fname, "exec"))
-#     return locals()["__version__"]
-
-
-# requirements = []
-# if sys.platform.startswith("linux") and platform.machine() == "x86_64":
-#     requirements.append("triton>=2.0.0,<3")
-
-# setup(
-#     name="openai-whisper",
-#     py_modules=["whisper"],
-#     version=read_version(),
-#     description="Robust Speech Recognition via Large-Scale Weak Supervision",
-#     long_description=open("README.md", encoding="utf-8").read(),
-#     long_description_content_type="text/markdown",
-#     readme="README.md",
-#     python_requires=">=3.8",
-#     author="OpenAI",
-#     url="https://github.com/openai/whisper",
-#     license="MIT",
-#     packages=find_packages(exclude=["tests*"]),
-#     install_requires=[
-#         str(r)
-#         for r in pkg_resources.parse_requirements(
-#             Path(__file__).with_name("requirements.txt").open()
-#         )
-#     ],
-#     entry_points={
-#         "console_scripts": ["whisper=whisper.transcribe:cli"],
-#     },
-#     include_package_data=True,
-#     extras_require={"dev": ["pytest", "scipy", "black", "flake8", "isort"]},
-# )
+setup(
+    name='ve-gans',
+    version='0.1',
+    packages=find_packages(),
+    install_requires=requirements,
+    entry_points={
+        'console_scripts': [
+            've-gans-train=ve_gans.train:main',
+            've-gans-generate=ve_gans.generate:main',
+        ],
+    },
+    author='Zai',
+    author_email='zaiyellyintaung@gmail.com',
+    description='Image generation with GANs using PyTorch',
+    long_description='Detailed description of your project',
+    url='https://github.com/zaibutcooler/ve-gans',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+)
