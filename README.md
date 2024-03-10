@@ -31,17 +31,17 @@ ve-gans is a project for image generation using Generative Adversarial Networks 
 
 To train the GAN model, use the following command:
 
-    ```bash
-    ve-gans-train
-    ```
+  ```bash
+  ve-gans-train
+  ```
 
 ## Generating Images
 
 To generate images with the trained model, use the following command:
 
-    ```bash
-    ve-gans-generate
-    ```
+  ```bash
+  ve-gans-generate
+  ```
 
 ## Project Structure
 
