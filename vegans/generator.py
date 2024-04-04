@@ -12,5 +12,5 @@ class Generator(nn.Module):
 
     )
 
-  def forward(self):
+  def forward(self,x,y):
     pass
