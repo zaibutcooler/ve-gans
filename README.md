@@ -1,3 +1,15 @@
+---
+title: Ve Gans
+emoji: 👀
+colorFrom: yellow
+colorTo: green
+sdk: streamlit
+sdk_version: 1.29.0
+app_file: app.py
+pinned: false
+license: openrail
+---
+
 # ve-gans: Image Generation with GANs using PyTorch
 
 ## Overview
@@ -68,5 +80,5 @@ Mention any contributors or libraries that you used or were inspired by.
 ## Contact
 
 - Zai
-- zaiyellyintaung@gmail.com
+- <zaiyellyintaung@gmail.com>
 - Project Link: [https://github.com/zaibutcooler/ve-gans](https://github.com/zaibutcooler/ve-gans)

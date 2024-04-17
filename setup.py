@@ -8,15 +8,9 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=requirements,
-    entry_points={
-        'console_scripts': [
-            've-gans-train=ve_gans.train:main',
-            've-gans-generate=ve_gans.generate:main',
-        ],
-    },
     author='Zai',
     author_email='zaiyellyintaung@gmail.com',
-    description='Image generation with GANs using PyTorch',
+    description='Floorplan generation model with pytorch',
     long_description='Detailed description of your project',
     url='https://github.com/zaibutcooler/ve-gans',
     classifiers=[
