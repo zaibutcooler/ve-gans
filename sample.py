@@ -4,6 +4,6 @@ vegans = Vegans
 
 vegans.load_pretrained()
 
-text = 'something'
+text = "something"
 
 vegans.generate(text)

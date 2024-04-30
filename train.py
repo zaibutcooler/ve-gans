@@ -8,4 +8,3 @@ vegans.train()
 
 # or you can simply just
 # vegans.load_pretrained()
-

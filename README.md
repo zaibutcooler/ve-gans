@@ -1,15 +1,3 @@
----
-title: Ve Gans
-emoji: 👀
-colorFrom: yellow
-colorTo: green
-sdk: streamlit
-sdk_version: 1.29.0
-app_file: app.py
-pinned: false
-license: openrail
----
-
 # ve-gans: Image Generation with GANs using PyTorch
 
 ## Overview
