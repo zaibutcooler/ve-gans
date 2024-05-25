@@ -1,0 +1,1 @@
+from .vegans import Vegans

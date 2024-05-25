@@ -5,7 +5,7 @@ import torch
 class Generator(nn.Module):
   def __init__(self):
     super(Generator, self).__init__()
-    def block():
+    def block(in_feat,out_feat,norm=False):
       pass
     
     self.model = nn.Sequential(
@@ -13,7 +13,4 @@ class Generator(nn.Module):
     )
 
   def forward(self):
-    pass
-
-  def generate(self,text):
     pass
