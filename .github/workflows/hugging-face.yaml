@@ -16,14 +16,15 @@ jobs:
         run: |
           git config --global user.email "github-actions-bot@github.com"
           git config --global user.name "GitHub Actions"
+
       - name: Update README.md
         run: |
           tmp_file=$(mktemp)
           echo "---" >> $tmp_file
           echo "title: Ve Gans" >> $tmp_file
-          echo "emoji: 📈" >> $tmp_file
+          echo "emoji: 🏠" >> $tmp_file
           echo "colorFrom: yellow" >> $tmp_file
-          echo "colorTo: gray" >> $tmp_file
+          echo "colorTo: indigo" >> $tmp_file
           echo "sdk: streamlit" >> $tmp_file
           echo "sdk_version: 1.29.0" >> $tmp_file
           echo "app_file: space.py" >> $tmp_file

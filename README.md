@@ -1,72 +1,29 @@
-# ve-gans: Image Generation with GANs using PyTorch
+# Ve-gans
 
-## Overview
+Ve-gans is an ongoing research project focused on developing a generative AI model specifically designed to generate floorplans and architectural drawings. The project aims to advance the capabilities of GANs (Generative Adversarial Networks) in the field of architectural design.
 
-ve-gans is a project for image generation using Generative Adversarial Networks (GANs) implemented in PyTorch.
+## Project Highlights
+
+The highlight of this project is the [research paper](https://docs.google.com/document/d/1nm6Pj3HaDo-W2HAQPPrgGqWIH74SPgQZAHxC5Uk20PQ/edit?usp=sharing) that is being written, detailing the methodologies, experiments, and findings related to the generation of architectural designs using GANs.
 
 ## Features
 
-- GAN model for image generation.
-- Separate scripts for training and generating images.
-- Easy-to-use command-line interface.
-
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/zaibutcooler/ve-gans.git
-   cd ve-gans
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+- **Generative AI for Architecture**: Specially designed to generate floorplans and architectural drawings.
+- **Advanced GAN Techniques**: Utilizes cutting-edge GAN methodologies to create detailed and realistic architectural designs.
+- **Research-Driven**: The development process is guided by rigorous research and experimentation.
 
 ## Usage
 
-### Training
+To use the Ve-gans model and explore its capabilities, refer to the [source code](https://github.com/zaibutcooler/ve-gans) and other resources provided below.
 
-To train the GAN model, use the following command:
+## Links
 
-  ```bash
-  ve-gans-train
-  ```
-
-## Generating Images
-
-To generate images with the trained model, use the following command:
-
-  ```bash
-  ve-gans-generate
-  ```
-
-## Project Structure
-
-- `ve_gans/`: Python package containing GAN implementation and utilities.
-  - `generator.py`: Implementation of the GAN generator.
-  - `discriminator.py`: Implementation of the GAN discriminator.
-  - `utils.py`: Utility functions.
-- `requirements.txt`: List of project dependencies.
-- `setup.py`: Setup script for installing the package.
-- `main.py`: Example script for using the ve-gans package.
-
-## Contributing
-
-Contributions are welcome! Please follow the [Contribution Guidelines](CONTRIBUTING.md).
+- [Source Code](https://github.com/zaibutcooler/ve-gans)
+- [Research Paper](https://docs.google.com/document/d/1nm6Pj3HaDo-W2HAQPPrgGqWIH74SPgQZAHxC5Uk20PQ/edit?usp=sharing)
+- [Hugging Face Space](https://huggingface.co/spaces/zaibutcooler/ve-gans)
+- [Opensourced Model](https://huggingface.com/zaibutcooler/ve-gans)
+- [Dataset](https://huggingface.co/datasets/zaibutcooler/archi-12k)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Mention any contributors or libraries that you used or were inspired by.
-
-## Contact
-
-- Zai
-- <zaiyellyintaung@gmail.com>
-- Project Link: [https://github.com/zaibutcooler/ve-gans](https://github.com/zaibutcooler/ve-gans)
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the [LICENSE](LICENSE) file for details.
